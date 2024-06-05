@@ -3,25 +3,6 @@ h1{
     color:#00CCff;
 }
 
-.loader{
-    position:fixed;
-    width:100%;
-    height:100vh;
-    background-color:black;
-    z-index:555;
-    top:0;
-    left:0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.loader .txt{
-    font-size:45px;
-    font-weight:bold;
-    color:#1E3253;
-}
-
 .header{
     background-color:#488bc1;
 }
