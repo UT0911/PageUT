@@ -1,22 +1,26 @@
+*{
+    margin:0px;
+}
 
 .header{
     background-color:#488bc1;
+    width:100%;
+    position:fixed;
 }
 
 .HeaderWord{
+    padding:5px;
     font-size:20px;
     font-weight:bold;
-    padding:20px;
 }
 
 .top{
         display:flex;
-        column-gap:80px
+        column-gap:80px;
 }
 
 h1{
     font-family:serif;
-    text-align:center;
 }
 
 .text-content{
@@ -24,6 +28,23 @@ h1{
     font-size:20px;
 }
 .icon{
+    margin-top:60px;
     width:200px;
     height:200px;
+}
+
+.profile{
+    margin-top:60px;
+}
+
+.footer{
+    background-color:black;
+    color:#DCDCDC;
+    text-align:center;
+    padding:10px;
+}
+    
+
+.footerWord{
+    
 }
