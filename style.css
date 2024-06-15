@@ -6,6 +6,7 @@
     background-color:#488bc1;
     width:100%;
     position:fixed;
+    padding:10px;
 }
 
 .HeaderWord{
@@ -14,9 +15,15 @@
     font-weight:bold;
 }
 
-.top{
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
         display:flex;
         column-gap:80px;
+        background-color:#AEE5B3
 }
 
 h1{
@@ -27,15 +34,22 @@ h1{
     font-family:sans-serif;
     font-size:20px;
 }
+
+.blank{
+    padding:30px;
+}
 .icon{
-    margin-top:60px;
     width:200px;
     height:200px;
 }
 
-.profile{
-    margin-top:60px;
+.link{
+    display:flex;
+    column-gap:80px;
+    background-color:#eb9ed0cf
+    
 }
+
 
 .footer{
     background-color:black;
@@ -44,7 +58,3 @@ h1{
     padding:10px;
 }
     
-
-.footerWord{
-    
-}
